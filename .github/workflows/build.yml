@@ -26,7 +26,7 @@ jobs:
         run: |
           curl -sL https://www.amxmodx.org/amxxdrop/$AMXMODX/$(curl https://www.amxmodx.org/amxxdrop/$AMXMODX/amxmodx-latest-base-linux) -# | tar xz
           curl -OL $URL_REAPI -# &&\
-	        unzip reapi_*-dev.zip && rm reapi_*-dev.zip &&\
+          unzip reapi_*-dev.zip && rm reapi_*-dev.zip &&\
 
       - name: Compile plugins AMXX Version
         run: |
